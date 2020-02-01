@@ -111,11 +111,11 @@
     <!--whether support record location in camera-->
     <bool name="support_camera_record_location">true</bool>
     <!--whether support time watermark in camera-->
-    <bool name="support_camera_water_mark">true</bool>
+    <bool name="support_camera_water_mark">false</bool>
     <!--whether support new style time watermark in camera-->
-    <bool name="support_camera_new_style_time_water_mark">true</bool>
+    <bool name="support_camera_new_style_time_water_mark">false</bool>
     <!--whether support face info watermark in camera-->
-    <bool name="support_camera_face_info_water_mark">true</bool>
+    <bool name="support_camera_face_info_water_mark">false</bool>
     <!--whether support pause recording in camera-->
     <bool name="support_camera_video_pause">true</bool>
     <!--whether support boosting screen brightness in camera-->
@@ -210,7 +210,7 @@
     <string name="camera_continuous_shot_callback_class">ContinuousShotCallback</string>
     <!--camera continuous shot callback setter method name-->
     <string name="camera_continuous_shot_callback_setter">setContinuousShotCallback</string>
-    <bool name="fingerprint_wakeup_device">true</bool>
+    <bool name="fingerprint_wakeup_device">false</bool>
     <!-- fingerprint navigation event name list -->
     <string-array name="fp_nav_event_name_list">
         <item>fpc_irq_wakeup</item>
